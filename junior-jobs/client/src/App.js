@@ -5,7 +5,7 @@ import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 
-const JOB_API_URL = 'api/jobs';
+const JOB_API_URL = '/api/jobs';
 
 async function fetchJobs(updateCb, loadedCb) {
   const res = await fetch(JOB_API_URL);

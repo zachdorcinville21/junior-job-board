@@ -19,7 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy-production": "react-scripts build && scp -r ./build/* root@143.198.3.85:/var/www/entrydev.co/html",
+    "deploy-production": "react-scripts build && scp -r ./build/* root@143.198.5.117:./",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

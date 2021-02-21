@@ -54,6 +54,7 @@
 @media (max-width: 785px) {
     .job {
         width: 70%;
+        margin-bottom: 20px;
     }
 }
 

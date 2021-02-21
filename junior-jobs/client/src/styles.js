@@ -35,6 +35,7 @@ export const Filter = styled.div`
 
     @media (max-width: 785px) {
         width: 65%;
+        margin-bottom: 20px;
     }
 
     @media (max-width: 480px) {

@@ -1,0 +1,89 @@
+
+
+#page-num {
+    margin-bottom: 50px;
+}
+
+#loader {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   top: 35rem;
+}
+
+
+.job {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+}
+
+
+@media (min-width: 1076px) {
+    .job {
+        white-space: nowrap;
+    }
+
+    #loader {
+        justify-content: flex-start;
+        position: relative;
+        left: 25rem;
+        top: 30rem;
+
+    }
+}
+
+@media (max-width: 1076px) {
+    .job {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    #heading {
+        text-align: center !important;
+    }
+    
+}
+
+@media (max-width: 785px) {
+    .job {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .job {
+        width: 90%;
+    }
+}
+
+.job:hover {
+    color: rgba(43, 39, 39, 0.644);
+    cursor: pointer;
+}
+
+
+.jobs {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#company-logo {
+    width: 100px;
+    padding: 10px;
+}
+
+#alert-dialog-slide-title {
+    width: 100%;
+    font-size: 30px;
+}
+
+#apply-btn {
+    text-decoration: none;
+}

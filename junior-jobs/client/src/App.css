@@ -54,7 +54,15 @@
 @media (max-width: 785px) {
     .job {
         width: 70%;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+    }
+
+    #keyword {
+        margin-right: 10px;
+    }
+
+    #city {
+        margin-left: 10px;
     }
 }
 
